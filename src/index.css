@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: squidgy;
+  src: url(./assets/fonts/Squidgy-35LL.ttf);
+}
+
+.font-squidgy {
+  font-family: squidgy;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
